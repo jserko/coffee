@@ -87,3 +87,30 @@ p {
 .icon {
   width: 260px;
 }
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    padding: 70px 30px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .icon {
+    width: 500px;
+  }
+
+  p {
+    line-height: 1.2;
+  }
+
+  .link {
+    height: 122px;
+    width: 410px;
+}
+}
